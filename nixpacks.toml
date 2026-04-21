@@ -1,0 +1,8 @@
+[phases.setup]
+nixPkgs = ["python312"]
+
+[phases.build]
+cmds = ["pip install flask"]
+
+[start]
+cmd = "python server.py"
